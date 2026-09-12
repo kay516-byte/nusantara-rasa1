@@ -24,9 +24,9 @@
 
                 <div class="flex items-center gap-4 ml-auto">
                     <span class="text-sm text-gray-600">Halo, {{ auth()->user()->name }}</span>
-                    <form action="{{ route('logout') }}" method="POST">s
-                        @csrf
-                        <button type="submit" class="bg-white border border-gray-300 rounded-full px-5 py-2 text-sm font-semibold hover:bg-gray-50">Keluar</button>
+                     <form action="{{ route('logout') }}" method="POST">
+                     @csrf
+                     <button type="submit" class="bg-white border border-gray-300 rounded-full px-5 py-2 text-sm font-semibold hover:bg-gray-50">Keluar</button>
                     </form>
                 </div>
             </div>
